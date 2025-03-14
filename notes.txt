@@ -1,5 +1,46 @@
-﻿####################
+﻿first phase:
+host gets event with random chance for vf_colonization_progress
+guests get event with random chance for vf_colonization_progress
+make a custom exploration script value doing more based on like diplo/learning?
+
+2nd phase:
+host gets event with random chance for vf_colonization_progress
+guests get event with random chance for vf_colonization_progress
+make a custom cultivate script value doing more based on like diplo/learning and maybe rando traits like gardener etc?
+
+make a gui where you have to select the person taking charge of the colonization effort (then save the selected as scope and show in events)
+
+title:e_valyria = {
+    create_title_and_vassal_change = {
+        type = inherited
+        save_scope_as = change
+    }
+    every_de_jure_county = {
+        holder.dynasty = {
+            every_dynasty_member = {
+                limit = { this.location ?= { geographical_region = world_valyrian_peninsula } }
+                add_to_list = kill_list
+            }
+        }
+        this = { agot_ruin_county_effect = yes }
+        change_title_holder = {
+            holder = character:ruin_empress
+            change = scope:change
+            take_baronies = yes
+        }
+    }
+    resolve_title_and_vassal_change = scope:change
+    every_in_list = {
+        list = kill_list
+        death = {
+            death_reason = death_old_age
+        }
+    }
+}
+####################
 High prio:
+
+make a head of faith title
 
 changes the lord lady stuff and find something that fits for consort
 ####################
@@ -34,6 +75,9 @@ agot_title_is_an_active_dragonpit
 has_any_dragonpits
 has_dragonmont_dragonpit
 agot_can_use_dragonpit_amenities
+
+C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\2962333032\common\scripted_effects\00_agot_scripted_effects_dragons.txt
+dragon template stuff
 
 # traits
 authoritative

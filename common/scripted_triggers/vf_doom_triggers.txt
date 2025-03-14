@@ -1,0 +1,22 @@
+﻿vf_province_is_ruined = {
+	OR = {
+		this = {
+			geographical_region = world_valyrian_peninsula 
+			OR = {
+				has_building_or_higher = medium_ruin_01
+				has_building_or_higher = ruin_01
+			}
+		}
+		this = {
+			geographical_region = world_valyrian_peninsula 
+			OR = {
+				has_building_or_higher = medium_ruin_01
+				has_building_or_higher = ruin_01
+			}
+		}
+	}
+}
+
+vf_the_doom_happened = {
+	has_global_variable = vf_doom_happened
+}

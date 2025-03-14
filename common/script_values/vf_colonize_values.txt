@@ -1,0 +1,39 @@
+﻿vf_colonize_cost = {
+	value = 40
+#	if = {
+#		limit = {
+#			primary_title = {
+#				tier = tier_county
+#			}
+#		}
+#		add = 100
+#	}
+#	if = {
+#		limit = {
+#			primary_title = {
+#				tier = tier_duchy
+#			}
+#		}
+#		add = 200
+#	}
+#	if = {
+#		limit = {
+#			primary_title = {
+#				tier = tier_kingdom
+#			}
+#		}
+#		add = 400
+#	}
+#	if = {
+#		limit = {
+#			primary_title = {
+#				tier = tier_empire
+#			}
+#		}
+#		add = 600
+#	}
+}
+
+vf_colonization_progress_value = {
+	add = 4
+}

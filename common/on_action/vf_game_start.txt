@@ -44,7 +44,7 @@ vf_game_start = {
 				set_title_name = k_firekingdom_eng
 			}
 		}
-		if = {
+		if = { #for my 1st bookmark
 			limit = {
 				game_start_date >= 7888.1.1
 			}
@@ -52,6 +52,13 @@ vf_game_start = {
 			culture:high_valyrian = {
 				add_innovation = innovation_agot_anti_dragon_fighting
 			}
+		}
+
+		if = {
+			limit = {
+				game_start_date > 7888.1.1
+			}
+			vf_the_doom_type_shi = yes
 		}
 
 		too_lazy_to_change_the_generated_counties_liege_in_the_files_effect = yes

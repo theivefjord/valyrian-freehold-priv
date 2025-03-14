@@ -1,0 +1,15 @@
+﻿l_english:
+ vf_province_is_ruined_desc:0 "The province is fucking cooked"
+
+ vf_colonize_type:0 "Colonization Type"
+
+ colonize_intent:0 "Colonize"
+ colonize_intent_desc:0 "You are focusing on establishing a new colony in ruined lands."
+ 
+ exploration_intent:0 "Explore"
+ exploration_intent_desc:0 "You are focusing on exploration."
+ 
+ witness_colonization_intent:0 "Witness"
+ witness_colonization_intent_desc:0 "You are joining to witness the colonization."
+
+

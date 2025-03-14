@@ -1,0 +1,181 @@
+﻿namespace = vf_colonize_progress
+# on start for host (colonize_type_blind)
+vf_colonize_progress.0001 = {
+	type = activity_event
+	title = vf_colonize_progress.0001.t
+	desc = vf_colonize_progress.0001.desc
+	theme = faith
+	left_portrait = {
+		character = scope:host
+		animation = personality_content
+	}
+	#right_portrait = {
+	#	character = root
+	#	animation = personality_content
+	#}
+
+	option = {
+		name = vf_colonize_progress.0001.a
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+# on start for host (colonize_type_knowledge)
+vf_colonize_progress.0002 = {
+	type = activity_event
+	title = vf_colonize_progress.0002.t
+	desc = vf_colonize_progress.0002.desc
+	theme = faith
+
+	option = {
+		name = vf_colonize_progress.0002.a
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+# first phase active for guest
+vf_colonize_progress.0003 = {
+	type = activity_event
+	title = vf_colonize_progress.0003.t
+	desc = vf_colonize_progress.0003.desc
+	theme = faith
+
+	option = {
+		name = vf_colonize_progress.0003.a
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+# cultivate phase active for host
+vf_colonize_progress.0004 = {
+	type = activity_event
+	title = vf_colonize_progress.0004.t
+	desc = vf_colonize_progress.0004.desc
+	theme = faith
+
+	option = {
+		name = vf_colonize_progress.0004.a
+		ai_chance = {
+			base = 100
+		}
+		scope:activity = {
+			vf_activity_progress = yes
+		}
+	}
+}
+# cultivate phase active for guest
+vf_colonize_progress.0005 = {
+	type = activity_event
+	title = vf_colonize_progress.0005.t
+	desc = vf_colonize_progress.0005.desc
+	theme = faith
+
+	option = {
+		name = vf_colonize_progress.0005.a
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+# outcome phase active for host
+vf_colonize_progress.0006 = {
+	type = activity_event
+	title = vf_colonize_progress.0006.t
+	desc = vf_colonize_progress.0006.desc
+	theme = faith
+
+	option = {
+		name = vf_colonize_progress.0006.a
+		vf_activity_unruinize_outcome = yes
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+# outcome phase active for guest
+vf_colonize_progress.0007 = {
+	type = activity_event
+	title = vf_colonize_progress.0007.t
+	desc = vf_colonize_progress.0007.desc
+	theme = faith
+
+	option = {
+		name = vf_colonize_progress.0007.a
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+# first phase active for host
+vf_colonize_progress.0008 = {
+	type = activity_event
+	title = vf_colonize_progress.0008.t
+	desc = vf_colonize_progress.0008.desc
+	theme = faith
+
+	option = {
+		name = vf_colonize_progress.0008.a
+		vf_activity_unruinize_outcome = yes
+		ai_chance = {
+			base = 100
+		}
+		scope:activity = { activity_special_type_progression_tiny = yes }
+	}
+}
+# monthly pulse for host (colony_explore phase)
+vf_colonize_progress.0099 = {
+	hidden = yes
+	immediate = {
+		add_gold = 1000
+		scope:activity = {
+			vf_activity_progress = yes
+		}
+	}
+}
+# monthly pulse for host (colony_cultivate phase)
+vf_colonize_progress.0098 = {
+	hidden = yes
+	immediate = {
+		add_gold = 1000
+		scope:activity = {
+			vf_activity_progress = yes
+		}
+	}
+}
+
+vf_colonize_progress.0100 = {
+	type = character_event
+	title = vf_colonize_progress.0100.t
+	desc = vf_colonize_progress.0100.d
+
+	override_background = { reference = army_camp }
+
+	immediate = {
+		scope:ruined_province = { save_scope_as = completed_ruin }
+		remove_province_modifier = agot_ruin_construction
+	}
+
+	option = {
+		name = vf_colonize_progress.0100.a
+		scope:completed_ruin = {
+			set_holding_type = castle_holding
+		}
+	}
+
+	option = {
+		name = vf_colonize_progress.0100.b
+		scope:completed_ruin = {
+			set_holding_type = city_holding
+		}
+	}
+
+	option = {
+		name = vf_colonize_progress.0100.c
+		scope:completed_ruin = {
+			set_holding_type = church_holding
+		}
+	}
+}

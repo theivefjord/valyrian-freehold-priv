@@ -1,0 +1,42 @@
+﻿vf_activity_setup_colonize_progression_effect = {
+	set_variable = {
+		name = vf_colony_outcome
+		value = 0
+	}
+}
+
+vf_activity_progress = {
+	if = {
+		limit = { exists = var:activity_special_type_progression }
+		change_variable = {
+			name = activity_special_type_progression
+			add = vf_colonization_progress_value
+		}
+	}
+}
+
+vf_activity_unruinize_outcome = {
+	create_title_and_vassal_change = {
+		type = conquest
+		save_scope_as = change
+		add_claim_on_loss = yes
+	}
+	scope:province.county = { 
+		every_county_province = {
+			limit = { has_holding_type = ruin_holding }
+			save_scope_as = ruined_province
+			scope:host = { trigger_event = vf_colonize_progress.0100 }
+			#change_title_holder = {
+			#	holder = scope:host
+			#	change = scope:change
+			#	take_baronies = yes
+			#}
+		}
+		change_title_holder = {
+			holder = scope:host
+			change = scope:change
+			take_baronies = yes
+		}
+	}
+	resolve_title_and_vassal_change = scope:change
+}

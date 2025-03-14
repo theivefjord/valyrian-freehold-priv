@@ -1,0 +1,23 @@
+﻿namespace = vf_the_doom
+
+vf_the_doom.0001 = {
+	type = activity_event
+	title = vf_the_doom.0001.t
+	desc = vf_the_doom.0001.desc
+	theme = dragon
+
+	trigger = {
+		scope:activity = {
+			NOT = { activity_location = root.location }
+		}
+	}
+
+	immediate = {
+	}
+
+	left_portrait = root
+
+	option = {
+		name = vf_the_doom.0001.opt.a
+	}
+}

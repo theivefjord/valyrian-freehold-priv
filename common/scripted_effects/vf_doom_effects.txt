@@ -1,0 +1,47 @@
+﻿vf_the_doom_type_shi = {
+	title:e_valyria = {
+		create_title_and_vassal_change = {
+			type = inherited
+			save_scope_as = change
+		}
+		every_de_jure_county = {
+			if = {
+				limit = { this.holder = { is_ai = no } }
+				save_scope_as = player
+			}
+			holder.dynasty = {
+				every_dynasty_member = {
+					limit = { this.location ?= { geographical_region = world_valyrian_peninsula } }
+					if = {
+						limit = { has_variable = current_dragon }
+						this = {
+							var:current_dragon = {
+								death = {
+									death_reason = death_old_age
+								}
+							}
+						}
+					}
+					add_to_list = kill_list
+				}
+			}
+			this = { agot_ruin_county_effect = yes }
+			change_title_holder = {
+				holder = character:ruin_empress
+				change = scope:change
+				take_baronies = yes
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+		every_in_list = {
+			list = kill_list
+			death = {
+				death_reason = death_old_age
+			}
+		}
+	}
+	scope:player = {
+		set_player_character = title:d_dragonstone.holder
+	}
+	set_global_variable = vf_doom_happened
+}

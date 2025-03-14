@@ -1,0 +1,22 @@
+﻿l_english:
+ vf_colonize_progress.0001.t:0 "Title for start event"
+ vf_colonize_progress.0001.desc:0 "Description for start event"
+ vf_colonize_progress.0001.a:0 "Option A for start event"
+
+ vf_colonize_progress.0008.t:0 "Title for start of host colonization event"
+ vf_colonize_progress.0008.desc:0 "Description for start of host colonization event"
+ vf_colonize_progress.0008.a:0 "Option A for start of host colonization event"
+
+ vf_colonize_progress.0100.t:0 "Building Type for [completed_ruin.GetName]"
+ vf_colonize_progress.0100.desc:0 "Select the building type for [completed_ruin.GetName]"
+ vf_colonize_progress.0100.a:0 "Castle"
+ vf_colonize_progress.0100.b:0 "City"
+ vf_colonize_progress.0100.c:0 "Temple"
+
+ vf_colonize_progress.0004.t:0 "Title for start of host cultivate event"
+ vf_colonize_progress.0004.desc:0 "Description for start of host cultivate event"
+ vf_colonize_progress.0004.a:0 "Option A for start of host cultivate event"
+
+ vf_colonize_progress.0006.t:0 "Title for start of host outcome event"
+ vf_colonize_progress.0006.desc:0 "Description for start of host outcome event"
+ vf_colonize_progress.0006.a:0 "Option A for start of host outcome event"

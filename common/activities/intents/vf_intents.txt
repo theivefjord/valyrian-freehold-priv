@@ -1,0 +1,8 @@
+﻿colonize_intent = {
+	
+	auto_complete = yes
+
+	ai_will_do = {
+		value = 100
+	}
+}

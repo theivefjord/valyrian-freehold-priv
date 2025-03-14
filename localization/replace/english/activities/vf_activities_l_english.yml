@@ -1,0 +1,14 @@
+﻿l_english:
+ activity_vf_colonize:0 "Valyrian Colonization WIP"
+ activity_vf_colonize_desc:0 "Time to colonize Valyria not TM WIP"
+ 
+ activity_vf_colonize_destination_selection:0 "If the activity completes, you will establish a colony in the destination county."
+
+ vf_colonize_type_blind:0 "Blind Colonization"
+ vf_colonize_type_blind_desc:0 "You blindly focus on establishing a new colony in ruined lands."
+
+ colony_explore:0 "exploration phase"
+ colony_cultivate:0 "cultivation phase"
+ colony_outcome:0 "outcome phase"
+
+ TRAVEL_NAME_FOR_activity_vf_colonize:0 "Valyrian Colonization"

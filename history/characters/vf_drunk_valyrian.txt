@@ -1,589 +1,589 @@
-﻿Melnibone_3 = {
-    name = Maegon
-    dynasty = dynn_Melnibone
-#   dna = Melnibone_3
-    father = Melnibone_1
-    mother = Melnibone_2
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = rowdy
-
-    disallow_random_traits = yes
-
-    7884.5.10 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Melnibone_4 = {
-    name = Baela
-    dynasty = dynn_Melnibone
-#   dna = Melnibone_4
-    female = yes
-    father = Melnibone_1
-    mother = Melnibone_2
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = curious
-
-    disallow_random_traits = yes
-
-    7886.7.15 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Melnibone_5 = {
-    name = Rhaegar
-    dynasty = dynn_Melnibone
-#   dna = Melnibone_5
-    father = Melnibone_1_dad
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_intrigue_3
-    trait = deceitful
-    trait = ambitious
-    trait = paranoid
-    trait = sadistic
-
-    disallow_random_traits = yes
-
-    7866.1.1 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Melnibone_6 = {
-    name = Daenys
-    dynasty = dynn_Melnibone
-#   dna = Melnibone_6
-    female = yes
-    father = Melnibone_1_dad
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_diplomacy_3
-    trait = compassionate
-    trait = patient
-    trait = just
-    trait = calm
-
-    disallow_random_traits = yes
-
-    7868.3.12 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Melnibone_7 = {
-    name = Aerys
-    dynasty = dynn_Melnibone
-#   dna = Melnibone_7
-    father = Melnibone_1_dad
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_martial_4
-    trait = brave
-    trait = diligent
-    trait = ambitious
-
-    disallow_random_traits = yes
-
-    7864.2.18 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Jentys_3 = {
-    name = Aelor
-    dynasty = dynn_Jentys
-#   dna = Jentys_3
-    father = Jentys_1
-    mother = Jentys_1_wife
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = bossy
-
-    disallow_random_traits = yes
-
-    7882.6.1 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Jentys_4 = {
-    name = Maelys
-    dynasty = dynn_Jentys
-#   dna = Jentys_4
-    father = Jentys_1_dad
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_stewardship_3
-    trait = greedy
-    trait = ambitious
-    trait = arbitrary
-    trait = patient
-
-    disallow_random_traits = yes
-
-    7865.1.1 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Jentys_5 = {
-    name = Helaena
-    dynasty = dynn_Jentys
-#   dna = Jentys_5
-    female = yes
-    father = Jentys_1_dad
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_intrigue_3
-    trait = paranoid
-    trait = sadistic
-    trait = deceitful
-    trait = callous
-
-    disallow_random_traits = yes
-
-    7867.3.5 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Jentys_6 = {
-    name = Naerys
-    dynasty = dynn_Jentys
-#   dna = Jentys_6
-    female = yes
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_diplomacy_3
-    trait = compassionate
-    trait = patient
-    trait = just
-    trait = calm
-
-    disallow_random_traits = yes
-
-    7840.1.1 = {
-        birth = yes
-    }
-    7856.1.1 = {
-        add_spouse = Jentys_1_dad
-    }
-    7880.1.1 = {
-        death = yes
-    }
-}
-Azantys_3 = {
-    name = Rhaella
-    dynasty = dynn_Azantys
-#   dna = Azantys_3
-    female = yes
-    father = Azantys_1
-    mother = Azantys_1_wife
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = rowdy
-
-    disallow_random_traits = yes
-
-    7880.1.1 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Azantys_4 = {
-    name = Aelor
-    dynasty = dynn_Azantys
-#   dna = Azantys_4
-    father = Azantys_1_dad
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_martial_4
-    trait = brave
-    trait = diligent
-    trait = ambitious
-    trait = wrathful
-
-    disallow_random_traits = yes
-
-    7862.1.1 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Azantys_5 = {
-    name = Daenaera
-    dynasty = dynn_Azantys
-#   dna = Azantys_5
-    female = yes
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_diplomacy_3
-    trait = compassionate
-    trait = patient
-    trait = just
-    trait = calm
-
-    disallow_random_traits = yes
-
-    7840.1.1 = {
-        birth = yes
-    }
-    7856.1.1 = {
-        add_spouse = Azantys_1_dad
-    }
-    7880.1.1 = {
-        death = yes
-    }
-}
-Issaros_3 = {
-    name = Aelor
-    dynasty = dynn_Issaros
-#   dna = Issaros_3
-    father = Issaros_1_dad
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_martial_4
-    trait = brave
-    trait = diligent
-    trait = ambitious
-
-    disallow_random_traits = yes
-
-    7863.5.10 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Issaros_4 = {
-    name = Rhaena
-    dynasty = dynn_Issaros
-#   dna = Issaros_4
-    female = yes
-    mother = Issaros_1_wife
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = bossy
-
-    disallow_random_traits = yes
-
-    7880.8.22 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Issaros_5 = {
-    name = Aelinor
-    dynasty = dynn_Issaros
-#   dna = Issaros_5
-    female = yes
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_diplomacy_3
-    trait = generous
-    trait = patient
-    trait = just
-    trait = humble
-
-    disallow_random_traits = yes
-
-    7840.4.14 = {
-        birth = yes
-    }
-    7857.1.1 = {
-        add_spouse = Issaros_1_dad
-    }
-    7890.6.30 = {
-        death = yes
-    }
-}
-Jaelarys_3 = {
-    name = Maelor
-    dynasty = dynn_Jaelarys
-#   dna = Jaelarys_3
-    father = Jaelarys_1_dad
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_intrigue_3
-    trait = deceitful
-    trait = ambitious
-    trait = paranoid
-    trait = sadistic
-
-    disallow_random_traits = yes
-
-    7868.9.15 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Jaelarys_4 = {
-    name = Rhaella
-    dynasty = dynn_Jaelarys
-#   dna = Jaelarys_4
-    female = yes
-    mother = Jaelarys_1_wife
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = curious
-
-    disallow_random_traits = yes
-
-    7882.3.20 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Jaelarys_5 = {
-    name = Aelinor
-    dynasty = dynn_Jaelarys
-#   dna = Jaelarys_5
-    female = yes
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_diplomacy_3
-    trait = compassionate
-    trait = patient
-    trait = just
-    trait = calm
-
-    disallow_random_traits = yes
-
-    7842.7.11 = {
-        birth = yes
-    }
-    7859.1.1 = {
-        add_spouse = Jaelarys_1_dad
-    }
-    7892.1.1 = {
-        death = yes
-    }
-}
-Zalarys_3 = {
-    name = Baela
-    dynasty = dynn_Zalarys
-#   dna = Zalarys_3
-    female = yes
-    mother = Zalarys_1_wife
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = curious
-
-    disallow_random_traits = yes
-
-    7880.6.5 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Zalarys_4 = {
-    name = Maegon
-    dynasty = dynn_Zalarys
-#   dna = Zalarys_4
-    father = Zalarys_1_dad
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_martial_4
-    trait = brave
-    trait = diligent
-    trait = ambitious
-
-    disallow_random_traits = yes
-
-    7865.3.12 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Zalarys_5 = {
-    name = Aelinor
-    dynasty = dynn_Zalarys
-#   dna = Zalarys_5
-    female = yes
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_intrigue_3
-    trait = deceitful
-    trait = ambitious
-    trait = paranoid
-    trait = sadistic
-
-    disallow_random_traits = yes
-
-    7845.1.1 = {
-        birth = yes
-    }
-    7861.1.1 = {
-        add_spouse = Zalarys_1_dad
-    }
-    7890.1.1 = {
-        death = yes
-    }
-}
-Vaeritrix_3 = {
-    name = Rhaella
-    dynasty = dynn_Vaeritrix
-#   dna = Vaeritrix_3
-    female = yes
-    mother = Vaeritrix_1_wife
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = bossy
-
-    disallow_random_traits = yes
-
-    7883.8.20 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Vaeritrix_4 = {
-    name = Baelor
-    dynasty = dynn_Vaeritrix
-#   dna = Vaeritrix_4
-    father = Vaeritrix_1
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = curious
-
-    disallow_random_traits = yes
-
-    7885.5.15 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Vaeritrix_5 = {
-    name = Maegor
-    dynasty = dynn_Vaeritrix
-#   dna = Vaeritrix_5
-    father = Vaeritrix_1_dad
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_martial_3
-    trait = brave
-    trait = diligent
-    trait = ambitious
-
-    disallow_random_traits = yes
-
-    7865.9.18 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Aegustys_3 = {
-    name = Aelinor
-    dynasty = dynn_Aegustys
-#   dna = Aegustys_3
-    female = yes
-    mother = Aegustys_1_wife
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = curious
-
-    disallow_random_traits = yes
-
-    7883.12.30 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Aegustys_4 = {
-    name = Valarr
-    dynasty = dynn_Aegustys
-#   dna = Aegustys_4
-    father = Aegustys_1
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = rowdy
-
-    disallow_random_traits = yes
-
-    7881.4.18 = {
-        birth = yes
-    }
-    7950.1.1 = { death = { death_reason = death_old_age } }
-}
-Aegustys_5 = {
-    name = Rhaena
-    dynasty = dynn_Aegustys
-#   dna = Aegustys_5
-    female = yes
-
-    religion = valyrian
-    culture = high_valyrian
-
-    trait = education_diplomacy_4
-    trait = compassionate
-    trait = patient
-    trait = just
-    trait = calm
-
-    disallow_random_traits = yes
-
-    7845.2.14 = {
-        birth = yes
-    }
-    7862.1.1 = {
-        add_spouse = Aegustys_1_dad
-    }
-    7895.7.21 = {
-        death = yes
-    }
-}
+﻿#Melnibone_3 = {
+#    name = Maegon
+#    dynasty = dynn_Melnibone
+##   dna = Melnibone_3
+#    father = Melnibone_1
+#    mother = Melnibone_2
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = rowdy
+#
+#    disallow_random_traits = yes
+#
+#    7884.5.10 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Melnibone_4 = {
+#    name = Baela
+#    dynasty = dynn_Melnibone
+##   dna = Melnibone_4
+#    female = yes
+#    father = Melnibone_1
+#    mother = Melnibone_2
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = curious
+#
+#    disallow_random_traits = yes
+#
+#    7886.7.15 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Melnibone_5 = {
+#    name = Rhaegar
+#    dynasty = dynn_Melnibone
+##   dna = Melnibone_5
+#    father = Melnibone_1_dad
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_intrigue_3
+#    trait = deceitful
+#    trait = ambitious
+#    trait = paranoid
+#    trait = sadistic
+#
+#    disallow_random_traits = yes
+#
+#    7866.1.1 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Melnibone_6 = {
+#    name = Daenys
+#    dynasty = dynn_Melnibone
+##   dna = Melnibone_6
+#    female = yes
+#    father = Melnibone_1_dad
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_diplomacy_3
+#    trait = compassionate
+#    trait = patient
+#    trait = just
+#    trait = calm
+#
+#    disallow_random_traits = yes
+#
+#    7868.3.12 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Melnibone_7 = {
+#    name = Aerys
+#    dynasty = dynn_Melnibone
+##   dna = Melnibone_7
+#    father = Melnibone_1_dad
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_martial_4
+#    trait = brave
+#    trait = diligent
+#    trait = ambitious
+#
+#    disallow_random_traits = yes
+#
+#    7864.2.18 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Jentys_3 = {
+#    name = Aelor
+#    dynasty = dynn_Jentys
+##   dna = Jentys_3
+#    father = Jentys_1
+#    mother = Jentys_1_wife
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = bossy
+#
+#    disallow_random_traits = yes
+#
+#    7882.6.1 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Jentys_4 = {
+#    name = Maelys
+#    dynasty = dynn_Jentys
+##   dna = Jentys_4
+#    father = Jentys_1_dad
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_stewardship_3
+#    trait = greedy
+#    trait = ambitious
+#    trait = arbitrary
+#    trait = patient
+#
+#    disallow_random_traits = yes
+#
+#    7865.1.1 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Jentys_5 = {
+#    name = Helaena
+#    dynasty = dynn_Jentys
+##   dna = Jentys_5
+#    female = yes
+#    father = Jentys_1_dad
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_intrigue_3
+#    trait = paranoid
+#    trait = sadistic
+#    trait = deceitful
+#    trait = callous
+#
+#    disallow_random_traits = yes
+#
+#    7867.3.5 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Jentys_6 = {
+#    name = Naerys
+#    dynasty = dynn_Jentys
+##   dna = Jentys_6
+#    female = yes
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_diplomacy_3
+#    trait = compassionate
+#    trait = patient
+#    trait = just
+#    trait = calm
+#
+#    disallow_random_traits = yes
+#
+#    7840.1.1 = {
+#        birth = yes
+#    }
+#    7856.1.1 = {
+#        add_spouse = Jentys_1_dad
+#    }
+#    7880.1.1 = {
+#        death = yes
+#    }
+#}
+#Azantys_3 = {
+#    name = Rhaella
+#    dynasty = dynn_Azantys
+##   dna = Azantys_3
+#    female = yes
+#    father = Azantys_1
+#    mother = Azantys_1_wife
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = rowdy
+#
+#    disallow_random_traits = yes
+#
+#    7880.1.1 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Azantys_4 = {
+#    name = Aelor
+#    dynasty = dynn_Azantys
+##   dna = Azantys_4
+#    father = Azantys_1_dad
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_martial_4
+#    trait = brave
+#    trait = diligent
+#    trait = ambitious
+#    trait = wrathful
+#
+#    disallow_random_traits = yes
+#
+#    7862.1.1 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Azantys_5 = {
+#    name = Daenaera
+#    dynasty = dynn_Azantys
+##   dna = Azantys_5
+#    female = yes
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_diplomacy_3
+#    trait = compassionate
+#    trait = patient
+#    trait = just
+#    trait = calm
+#
+#    disallow_random_traits = yes
+#
+#    7840.1.1 = {
+#        birth = yes
+#    }
+#    7856.1.1 = {
+#        add_spouse = Azantys_1_dad
+#    }
+#    7880.1.1 = {
+#        death = yes
+#    }
+#}
+#Issaros_3 = {
+#    name = Aelor
+#    dynasty = dynn_Issaros
+##   dna = Issaros_3
+#    father = Issaros_1_dad
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_martial_4
+#    trait = brave
+#    trait = diligent
+#    trait = ambitious
+#
+#    disallow_random_traits = yes
+#
+#    7863.5.10 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Issaros_4 = {
+#    name = Rhaena
+#    dynasty = dynn_Issaros
+##   dna = Issaros_4
+#    female = yes
+#    mother = Issaros_1_wife
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = bossy
+#
+#    disallow_random_traits = yes
+#
+#    7880.8.22 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Issaros_5 = {
+#    name = Aelinor
+#    dynasty = dynn_Issaros
+##   dna = Issaros_5
+#    female = yes
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_diplomacy_3
+#    trait = generous
+#    trait = patient
+#    trait = just
+#    trait = humble
+#
+#    disallow_random_traits = yes
+#
+#    7840.4.14 = {
+#        birth = yes
+#    }
+#    7857.1.1 = {
+#        add_spouse = Issaros_1_dad
+#    }
+#    7890.6.30 = {
+#        death = yes
+#    }
+#}
+#Jaelarys_3 = {
+#    name = Maelor
+#    dynasty = dynn_Jaelarys
+##   dna = Jaelarys_3
+#    father = Jaelarys_1_dad
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_intrigue_3
+#    trait = deceitful
+#    trait = ambitious
+#    trait = paranoid
+#    trait = sadistic
+#
+#    disallow_random_traits = yes
+#
+#    7868.9.15 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Jaelarys_4 = {
+#    name = Rhaella
+#    dynasty = dynn_Jaelarys
+##   dna = Jaelarys_4
+#    female = yes
+#    mother = Jaelarys_1_wife
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = curious
+#
+#    disallow_random_traits = yes
+#
+#    7882.3.20 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Jaelarys_5 = {
+#    name = Aelinor
+#    dynasty = dynn_Jaelarys
+##   dna = Jaelarys_5
+#    female = yes
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_diplomacy_3
+#    trait = compassionate
+#    trait = patient
+#    trait = just
+#    trait = calm
+#
+#    disallow_random_traits = yes
+#
+#    7842.7.11 = {
+#        birth = yes
+#    }
+#    7859.1.1 = {
+#        add_spouse = Jaelarys_1_dad
+#    }
+#    7892.1.1 = {
+#        death = yes
+#    }
+#}
+#Zalarys_3 = {
+#    name = Baela
+#    dynasty = dynn_Zalarys
+##   dna = Zalarys_3
+#    female = yes
+#    mother = Zalarys_1_wife
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = curious
+#
+#    disallow_random_traits = yes
+#
+#    7880.6.5 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Zalarys_4 = {
+#    name = Maegon
+#    dynasty = dynn_Zalarys
+##   dna = Zalarys_4
+#    father = Zalarys_1_dad
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_martial_4
+#    trait = brave
+#    trait = diligent
+#    trait = ambitious
+#
+#    disallow_random_traits = yes
+#
+#    7865.3.12 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Zalarys_5 = {
+#    name = Aelinor
+#    dynasty = dynn_Zalarys
+##   dna = Zalarys_5
+#    female = yes
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_intrigue_3
+#    trait = deceitful
+#    trait = ambitious
+#    trait = paranoid
+#    trait = sadistic
+#
+#    disallow_random_traits = yes
+#
+#    7845.1.1 = {
+#        birth = yes
+#    }
+#    7861.1.1 = {
+#        add_spouse = Zalarys_1_dad
+#    }
+#    7890.1.1 = {
+#        death = yes
+#    }
+#}
+#Vaeritrix_3 = {
+#    name = Rhaella
+#    dynasty = dynn_Vaeritrix
+##   dna = Vaeritrix_3
+#    female = yes
+#    mother = Vaeritrix_1_wife
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = bossy
+#
+#    disallow_random_traits = yes
+#
+#    7883.8.20 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Vaeritrix_4 = {
+#    name = Baelor
+#    dynasty = dynn_Vaeritrix
+##   dna = Vaeritrix_4
+#    father = Vaeritrix_1
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = curious
+#
+#    disallow_random_traits = yes
+#
+#    7885.5.15 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Vaeritrix_5 = {
+#    name = Maegor
+#    dynasty = dynn_Vaeritrix
+##   dna = Vaeritrix_5
+#    father = Vaeritrix_1_dad
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_martial_3
+#    trait = brave
+#    trait = diligent
+#    trait = ambitious
+#
+#    disallow_random_traits = yes
+#
+#    7865.9.18 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Aegustys_3 = {
+#    name = Aelinor
+#    dynasty = dynn_Aegustys
+##   dna = Aegustys_3
+#    female = yes
+#    mother = Aegustys_1_wife
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = curious
+#
+#    disallow_random_traits = yes
+#
+#    7883.12.30 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Aegustys_4 = {
+#    name = Valarr
+#    dynasty = dynn_Aegustys
+##   dna = Aegustys_4
+#    father = Aegustys_1
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = rowdy
+#
+#    disallow_random_traits = yes
+#
+#    7881.4.18 = {
+#        birth = yes
+#    }
+#    7950.1.1 = { death = { death_reason = death_old_age } }
+#}
+#Aegustys_5 = {
+#    name = Rhaena
+#    dynasty = dynn_Aegustys
+##   dna = Aegustys_5
+#    female = yes
+#
+#    religion = valyrian
+#    culture = high_valyrian
+#
+#    trait = education_diplomacy_4
+#    trait = compassionate
+#    trait = patient
+#    trait = just
+#    trait = calm
+#
+#    disallow_random_traits = yes
+#
+#    7845.2.14 = {
+#        birth = yes
+#    }
+#    7862.1.1 = {
+#        add_spouse = Aegustys_1_dad
+#    }
+#    7895.7.21 = {
+#        death = yes
+#    }
+#}
